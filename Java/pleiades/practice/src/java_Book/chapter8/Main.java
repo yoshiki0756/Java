@@ -24,6 +24,13 @@ public class Main {
 		m1.run();
 		m2.run();
 		h.run();
+		
+		Cleric c = new Cleric();
+		c.name = "test";
+		c.mp = 50;
+		c.hp = 50;
+		c.selfAid();
+		c.pray(10);
 	}
 
 }
