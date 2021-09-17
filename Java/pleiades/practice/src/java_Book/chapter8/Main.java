@@ -27,8 +27,6 @@ public class Main {
 		
 		Cleric c = new Cleric();
 		c.name = "test";
-		c.mp = 50;
-		c.hp = 50;
 		c.selfAid();
 		c.pray(10);
 	}
