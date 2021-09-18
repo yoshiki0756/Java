@@ -12,12 +12,16 @@ public class Main {
 		//System.out.println("現在の武器は" + h.sword.name);
 		//h.attack();
 		
-		Hero h1 = new Hero();
-		h1.name = "ミナト";
-		h1.hp = 100;
-		Hero h2 = new Hero();
-		h2.name = "アサカ";
-		h2.hp = 100;
+		Hero h1 = new Hero("ミナト");
+		System.out.println(h1.name);
+		System.out.println(h1.hp);
+		//h1.name = "ミナト"
+		//h1.hp = 100;
+		Hero h2 = new Hero("アサカ");
+		System.out.println(h2.name);
+		System.out.println(h2.hp);
+		//h2.name = "アサカ";
+		//h2.hp = 100;
 		Wizard w = new Wizard();
 		w.name = "スガワラ";
 		w.hp = 50;
